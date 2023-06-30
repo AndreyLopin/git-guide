@@ -209,6 +209,8 @@ graph LR;
 ```mermaid
 graph LR;
   tracked -- "Изменения" --> modified;
+```
+```mermaid
 graph LR;
   staged -- "Изменения" --> modified;
 ```
