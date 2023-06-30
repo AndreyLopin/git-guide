@@ -184,4 +184,15 @@ Date:   Fri Jun 30 09:32:35 2023 +0300
 При работе с **Git** указатель **HEAD** используется довольно часто. 
 Если нужно передать последний коммит, то вместо его хеша можно просто написать слово **HEAD** — **Git** поймёт, что вы имели в виду последний коммит.
 ____
+#### Статусы файлов в Git
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+``` 
+____
 Author: Andrei Lopin [GitHub](https://github.com/AndreyLopin "Мой GitHub")
